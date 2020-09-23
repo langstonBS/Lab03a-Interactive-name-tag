@@ -13,5 +13,5 @@ button.addEventListener('click', () => {
     h1.textContent = value;
 
     // clear the input
-    name.textContent = '';
+    name.value = '';
 });
