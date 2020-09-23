@@ -1,0 +1,48 @@
+body, html {
+    height: 100%;
+ }
+ 
+ body {
+     background-color:white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: center;
+ 
+ }
+ 
+ main {
+     font-family: Arial;
+     text-align: center;
+     background-color: red;
+     color: whitesmoke;
+     height: 250px;
+     width: 370px;
+     border-radius: 7%;
+ 
+ }
+ 
+ p {
+     margin: 0;
+ }
+ 
+ p.hello {
+     font-size: 3em;
+     font-weight: bolder;
+     text-transform: uppercase;
+ }
+ 
+ p.my-name-is {
+     font-size: 1.5 em;
+ }
+ 
+ section {
+     height: 150px;
+     background-color: white;
+     color: blue;
+     font-size: 1.75em;
+     font-family: cursive;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
